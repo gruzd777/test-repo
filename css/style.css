@@ -1,0 +1,49 @@
+:root {
+    --basic-black: #000000;
+    --basic-white: #ffffff;
+}
+
+.page {
+    height: 100%;
+}
+
+body {
+    min-width: 1440px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    background: #888888;
+    background-position: top center;
+    color: var(--basic-black);
+
+    min-height: 100%;
+    
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    background: var(--basic-white);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    outline: 5px solid tomato;
+    outline-offset: -5px;
+
+}
+
+.page-header,
+.page-main,
+.page-footer {
+    outline: 5px solid yellowgreen;
+    outline-offset: -5px;
+}
+
