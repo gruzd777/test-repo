@@ -5,139 +5,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="#">
     <link rel="stylesheet" href="./css/style.css">
     <title>Nerds</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="page-header">
-            <div class="container">
-                <nav class="page-header__menu">
-                    <a>
-                        <img class="page-header__logo" src="./img/nerds-logo.svg" width="160" height="66"
-                            alt="Логотип дизайн-студии Nerds">
-                    </a>
-                    <ul class="page-header__list">
-                        <li class="page-header__item">
-                            <a href="#" class="page-header__link">Студия</a>
-                        </li>
-                        <li class="page-header__item">
-                            <a href="#" class="page-header__link">Клиенты</a>
-                        </li>
-                        <li class="page-header__item">
-                            <a href="shop.html" class="page-header__link">Магазин</a>
-                        </li>
-                        <li class="page-header__item">
-                            <a href="#" class="page-header__link">Контакты</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="page-header__user-link">Корзина</a>
-                </nav>
-            </div>
-        </header>
+    <header class="page-header">
+        <div class="container">
+            <nav class="page-header__menu">
+                <a class="page-header__logo">
+                    <img class="page-header__img" src="./img/nerds-logo.svg" width="160" height="66"
+                        alt="Логотип дизайн-студии Nerds">
+                </a>
+                <ul class="page-header__list">
+                    <li class="page-header__item">
+                        <a href="#" class="page-header__link">Студия</a>
+                    </li>
+                    <li class="page-header__item">
+                        <a href="#" class="page-header__link">Клиенты</a>
+                    </li>
+                    <li class="page-header__item">
+                        <a href="shop.html" class="page-header__link">Магазин</a>
+                    </li>
+                    <li class="page-header__item">
+                        <a href="#" class="page-header__link">Контакты</a>
+                    </li>
+                </ul>
+                <a href="#" class="page-header__user-link">Корзина</a>
+            </nav>
+        </div>
+    </header>
+    <main class="page-main">
 
-        <main class="page-main">
+        <section class="promo">
             <div class="container">
-                <section class="promo">
-                    <h1 class="visually-hidden">Дизайн-студия Nerds</h1>
-                    <p class="promo__title">Долго, дорого, скрупулезно.</p>
-                    <p class="promo__description">Математически выверенный дизайн для вашего сайта или мобильного
-                        приложения.</p>
-                    <a class="promo__link" href="#">УЗНАТЬ БОЛЬШЕ</a>
-                    <!-- <img src="./img/promo-photo.png" width="760" height="431" alt="Мобильные телефоны"> -->
-                </section>
-                <section class="services">
-                    <h2 class="visually-hidden">Услуги</h2>
-                    <ul class="services__list">
-                        <li class="services__item">
-                            <h3 class="services__title">Веб-сайты</h3>
-                            <p class="services__row">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-                            <a class="services__link" href="#">Заказать</a>
-                        </li>
-                        <li class="services__item">
-                            <h3 class="services__title">Приложения</h3>
-                            <p class="services__row">Покорите топ-10 приложений в AppStore и Google Play</p>
-                            <a class="services__link" href="#">Заказать</a>
-                        </li>
-                        <li class="services__item">
-                            <h3 class="services__title">Презентации</h3>
-                            <p class="services__row">Вы даже не подозреваете, насколько вы изумительны!</p>
-                            <a class="services__link" href="#">Заказать</a>
-                        </li>
+                <h1 class="visually-hidden">Дизайн-студия Nerds</h1>
+                <p class="promo__title">Долго, дорого, скрупулезно.</p>
+                <p class="promo__description">Математически выверенный дизайн <br> для вашего сайта или мобильного
+                    приложения.</p>
+                <a class="promo__link" href="#">УЗНАТЬ БОЛЬШЕ</a>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <h2 class="visually-hidden">Услуги</h2>
+                <ul class="services__list">
+                    <li class="services__item">
+                        <h3 class="services__title">Веб-сайты</h3>
+                        <p class="services__row">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                        <a class="services__link" href="#">Заказать</a>
+                    </li>
+                    <li class="services__item">
+                        <h3 class="services__title">Приложения</h3>
+                        <p class="services__row">Покорите топ-10 приложений в AppStore и Google Play</p>
+                        <a class="services__link" href="#">Заказать</a>
+                    </li>
+                    <li class="services__item">
+                        <h3 class="services__title">Презентации</h3>
+                        <p class="services__row">Вы даже не подозреваете, насколько вы изумительны!</p>
+                        <a class="services__link" href="#">Заказать</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="description">
+            <div class="container">
+                <div class="description__block">
+                    <h2 class="visually-hidden">Кто мы? И что мы делаем?</h2>
+                    <p class="description__title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+                    <p class="description__subtitle">Исповедуем принципы минимализма и чистоты. Ставим
+                        математический
+                        расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+                    <p class="description__list-title">Выполняем заказы на разработку:</p>
+                    <ul class="description__list">
+                        <li class="description__item">Веб-сайтов любой сложности</li>
+                        <li class="description__item">Мобильных приложений для iOS и Android</li>
+                        <li class="description__item">Слайдшоу и видео для корпоративных презентаций</li>
                     </ul>
-                </section>
-                <section class="description">
-                    <div class="description__block">
-                        <h2 class="visually-hidden">Кто мы? И что мы делаем?</h2>
-                        <p class="description__title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
-                        <p class="description__subtitle">Исповедуем принципы минимализма и чистоты. Ставим
-                            математический
-                            расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-                        <p class="description__list-title">Выполняем заказы на разработку:</p>
-                        <ul class="description__list">
-                            <li class="description__item">Веб-сайтов любой сложности</li>
-                            <li class="description__item">Мобильных приложений для iOS и Android</li>
-                            <li class="description__item">Слайдшоу и видео для корпоративных презентаций</li>
-                        </ul>
-                    </div>
-                    <div class="description__block">
-                        <p class="description__title-notes">с 2004 года Любим точность во всем:</p>
-                        <ul class="description__list-notes">
-                            <li class="description__item-notes">
-                                <p class="description__row-notes">146<span class="less__font">%</span></p>
-                                <p class="description__row-notes">Уровень самоотдачи</p>
-                            </li>
-                            <li class="description__item-notes">
-                                <p class="description__row-notes">100<span class="less__font">%</span></p>
-                                <p class="description__row-notes">Соблюдение сроков</p>
-                            </li>
-                            <li class="description__item-notes">
-                                <p class="description__row-notes">50<span class="less__font">%</span></p>
-                                <p class="description__row-notes">Минимальная предоплата</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <article class="description__logos">
-                    </article>
                 </div>
-                    <div class="map">
-                        <div class="map__contacts">
-                            <h3 class="map__title">NЁRDS DESIGN STUDIO</h3>
-                            <p class="map__row">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-                            <p class="map__row">тел. +7 (812) 275-75-75</p>
-                            <a href="#" class="map__link">Напишите нам</a>
-                        </div>
-                        <img class="map__img" src="./img/map.jpg" width="1440" height="416" alt="Карта">
-                    </div>
-                </section>
-            
-        </main>
-
-        <footer class="page-footer">
-            <div class="container">
-                <section class="footer__social">
-                    <h2 class="visually-hidden">Мы в социальных сетях</h2>
-                    <ul class="footer__list">
-                        <li class="footer__item">
-                            <a href="#" class="footer__link" aria-label="Мы в ВКонтакте"></a>
+                <div class="description__block">
+                    <p class="description__title-notes">с 2004 года Любим точность во всем:</p>
+                    <ul class="description__list-notes">
+                        <li class="description__item-notes">
+                            <p class="description__row-notes">146<span class="less__font">%</span></p>
+                            <p class="description__row-notes">Уровень самоотдачи</p>
                         </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link" aria-label="Мы в Facebook"></a>
+                        <li class="description__item-notes">
+                            <p class="description__row-notes">100<span class="less__font">%</span></p>
+                            <p class="description__row-notes">Соблюдение сроков</p>
                         </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link" aria-label="Мы в Instagram"></a>
+                        <li class="description__item-notes">
+                            <p class="description__row-notes">50<span class="less__font">%</span></p>
+                            <p class="description__row-notes">Минимальная предоплата</p>
                         </li>
                     </ul>
-                    <div class="footer__friends">
-                        <p class="footer__row">Давайте дружить, это выгодно!</p>
-                        <p class="footer__row">Скидка 10% для друзей из социальных сетей.</p>
-                    </div>
-                </section>
-
+                </div>
+                <article class="description__logos">
+                </article>
             </div>
-        </footer>
-    </div>
+        </section>
+        <div class="map">
+            <div class="map__contacts">
+                <h3 class="map__title">NЁRDS DESIGN STUDIO</h3>
+                <p class="map__row">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                <p class="map__row">тел. +7 (812) 275-75-75</p>
+                <a href="#" class="map__link">Напишите нам</a>
+            </div>
+            <img class="map__img" src="./img/map.jpg" width="1440" height="416" alt="Карта">
+        </div>
+    </main>
+
+    <footer class="page-footer container">
+        <div class="container">
+            <section class="footer__social">
+                <h2 class="visually-hidden">Мы в социальных сетях</h2>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link" aria-label="Мы в ВКонтакте"></a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link" aria-label="Мы в Facebook"></a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link" aria-label="Мы в Instagram"></a>
+                    </li>
+                </ul>
+                <div class="footer__friends">
+                    <p class="footer__row">Давайте дружить, это выгодно!</p>
+                    <p class="footer__row">Скидка 10% для друзей из социальных сетей.</p>
+                </div>
+            </section>
+        </div>
+    </footer>
 </body>
 
 </html>
