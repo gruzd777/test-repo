@@ -3,6 +3,8 @@
     --basic-white: #ffffff;
     --wrapper-backgroud: #EEEEEE;
     --red-btn: #FB565A;
+    --green-btn: #00CA74;
+    --yellow-btn: #EFC849;
     --circle: #C1C1C1;
 }
 
@@ -82,6 +84,7 @@ body {
     list-style: none;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .page-header__item {
@@ -252,4 +255,117 @@ body {
 
 .slide__current {
     display: block;
+}
+
+/* Services */
+
+.services {
+    padding: 80px 0 0 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.services::after {
+    content: '';
+    width: 1158px;
+    height: 2px;
+    background: var(--wrapper-backgroud);
+    margin-top: 80px;
+    align-self: center;
+}
+
+
+.services__list {
+    display: flex;
+    width: 1100px;
+    justify-content: flex-start;
+    margin: 0 0 0 20px;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.services__item {
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 100px 0 0;
+}
+
+.services__item:last-child {
+    margin: 0;
+}
+
+.services__item::before {
+    margin: 0 0 25px 0;
+}
+
+.services__item-1::before {
+    content: '';
+    width: 300px;
+    height: 146px;
+    background: url(../img/sites.png) no-repeat;
+}
+
+.services__item-2::before {
+    content: '';
+    width: 300px;
+    height: 146px;
+    background: url(../img/apps.png) no-repeat;
+}
+
+.services__item-3::before {
+    content: '';
+    width: 300px;
+    height: 146px;
+    background: url(../img/presents.png) no-repeat;
+}
+
+.services__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+}
+
+.services__row {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 32px 0;
+    width: 245px;
+}
+
+
+.services__link {
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--basic-white);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+}
+
+
+.services__link--red {
+    background: var(--red-btn);
+}
+
+.services__link--green {
+    background: var(--green-btn);
+}
+
+.services__link--yellow {
+    background: var(--yellow-btn);
 }
