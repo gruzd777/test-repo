@@ -368,3 +368,133 @@ body {
 .services__link--yellow {
     background: var(--yellow-btn);
 }
+
+.description {
+    padding: 73px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.description::after {
+    content: '';
+    width: 1158px;
+    height: 2px;
+    background: var(--wrapper-backgroud);
+    align-self: center;
+
+}
+
+.description__flex {
+    display: flex;
+    margin-bottom: 73px;
+}
+
+.description__block {
+    margin: 0 0 0 20px;
+}
+
+.description__title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+    margin: 0 0 34px 0;
+    width: 660px;
+}
+
+.description__subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 40px 0;
+    width: 620px;
+}
+
+.description__list-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 22px 0;
+    width: 320px;
+}
+
+.description__list {
+    list-style: none;
+    margin: 0 0 0 -4px;
+    padding: 0;
+}
+
+.description__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    margin: 0 0 25px 40px;
+}
+
+.description__item:last-child {
+    margin-bottom: 0;
+}
+
+.description__item::before {
+    content: '';
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    background: var(--red-btn);
+    top: 12px;
+    left: -36px;
+}
+
+.description__block--flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -34px 0 0 133px;
+}
+
+.description__block--flex::before {
+    content: '';
+    width: 360px;
+    height: 208px;
+    background: url(../img/nerds-illustration.png) no-repeat;
+    margin: 0 0 37px 0;
+}
+
+.description__title-notes {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0 0 0 0;
+}
+
+.description__list-notes {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 374px;
+}
+
+.description__item-notes {
+    margin: 0 20px 0 0;
+}
+
+
+.description__row-notes {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 0 11px 0;
+}
+
+.description__row-notes:last-child {
+    margin: 0;
+}
+
+.less__font {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 64px;
+}
